@@ -1,0 +1,68 @@
+/* Logo font */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* Text font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  /* COLORS */
+  --primary-color: #2c562b;
+  --secundary-color: #123111;
+  --ternary-color: #226121;
+  --black: #000;
+  --white: #fff;
+
+  /* FONT */
+  --text-font: "Inter", sans-serif;
+  --logo-font: "Permanent Marker", cursive;
+
+}
+
+html{
+  font-size: 65.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family:var(--text-font);
+  font-size: 1.6rem;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+p{
+  font-size: 2.4rem;
+  color: var();
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3.6rem;
+}
+h3{
+  font-size: 3rem;
+}
+
+.container{
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
