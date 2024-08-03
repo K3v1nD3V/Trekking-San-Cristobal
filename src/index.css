@@ -1,8 +1,3 @@
-/* Logo font */
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-/* Text font*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 :root {
   /* COLORS */
   --primary-color: #2c562b;
@@ -14,7 +9,6 @@
   /* FONT */
   --text-font: "Inter", sans-serif;
   --logo-font: "Permanent Marker", cursive;
-
 }
 
 html{
@@ -66,3 +60,4 @@ h3{
   max-width: 120rem;
   margin: 0 auto;
 }
+
