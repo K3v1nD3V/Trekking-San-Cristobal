@@ -11,6 +11,67 @@
   --logo-font: "Permanent Marker", cursive;
 }
 
+/* ----- UTILIDADES ----- */
+
+.container{
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+/* ------BUTTONS------ */
+
+.button{
+  border: none;
+}
+.button:hover{
+  cursor: pointer;
+}
+
+.button-cta{
+  width: 20rem;
+  height: 4.5rem;
+  background-color: #228237;
+  border-radius: 5rem;
+  font-size: 2rem;
+  color: var(--white);
+  letter-spacing: 1px;
+  background-image: linear-gradient(43deg, #2eb04a 0%, #000000 100%);
+  transition: background-image 1s ease;
+}
+/* La idea es hacerle una animacion al hover y hacer que el cta sea un poco más llamativo
+  Queda como tarea
+*/
+/* @keyframes gradientAnimation {
+  from{
+    background-image: linear-gradient(43deg, #228237 0%, #52883c 36%, #9a6813 100%);
+  }to{
+    background-image: linear-gradient(43deg, #9a6813  0%, #52883c 56%, #228237 100%);
+  }
+} */
+/* .button-cta:hover{
+  animation-name: gradientAnimation;
+  animation-duration: 1s;
+} */
+
+.wave{
+  /* posibles estilos que puedad compartir todas las waves */
+}
+.wave1{
+  margin-top: -12rem;
+}
+
+/*  */
+
 html{
   font-size: 65.5%;
   box-sizing: border-box;
@@ -32,7 +93,7 @@ img{
 }
 
 p{
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: var();
   margin: 0;
 }
@@ -46,7 +107,8 @@ ul{
 }
 
 h1{
-  font-size: 4rem;
+  font-size: 6rem;
+  font-family: var(--logo-font);
 }
 h2{
   font-size: 3.6rem;
@@ -55,9 +117,4 @@ h3{
   font-size: 3rem;
 }
 
-.container{
-  width: 95%;
-  max-width: 120rem;
-  margin: 0 auto;
-}
 
