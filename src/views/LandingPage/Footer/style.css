@@ -1,0 +1,34 @@
+footer{
+    background-color: var(--primary-color);
+}
+
+.footer_content{
+    padding: 2rem;
+}
+
+.footer_content span{
+    display: inherit;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--secundary-color);
+}
+
+.footer_contactLinks{
+    gap: 2rem;
+    
+}
+
+.contactLink{
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.contactLink_icon{
+    transition: color .2s ease;
+}
+
+.contactLink_icon:hover{
+    cursor: pointer;
+    color: var(--secundary-color);
+}

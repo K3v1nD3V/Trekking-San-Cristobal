@@ -41,7 +41,7 @@
   width: 20rem;
   height: 4.5rem;
   background-color: #228237;
-  border-radius: 5rem;
+  border-radius: 1rem;
   font-size: 2rem;
   color: var(--white);
   letter-spacing: 1px;
@@ -63,14 +63,14 @@
   animation-duration: 1s;
 } */
 
-.wave{
-  /* posibles estilos que puedad compartir todas las waves */
+/* waves para la pagina ? */
+/* .wave{
 }
 .wave1{
   margin-top: -12rem;
-}
+} */
 
-/*  */
+/* Estilos generales */
 
 html{
   font-size: 65.5%;

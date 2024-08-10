@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Button from '../../../components/Button';
-import './styles.css';
+import './style.css';
 
 
 function Header() {
@@ -39,7 +39,7 @@ function Header() {
                         <div className='hero_content_text'>
                             <h1>Trakking</h1>
                             <p>Y tú ¿Ya viviste el turismo creativo?</p>
-                        </div>
+                         </div>
                         <div className='hero_content_action'>
                             <Button
                                 class = 'button-cta'
