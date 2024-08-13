@@ -1,10 +1,12 @@
-import './carousel.css'
+import './style.css'
 import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const images = [
+
+    
     {
       url: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbQ5lh1dvqkC11sIZZHdTFM9rOfgkS5NP2VnuLs6o4DiHx8rnizQ8H46NIwagBpXy0KTIcl9lTbyboxbjpIaUvUA5Hm4_KI_Ynb_GX5HTzBzWs_z-z3XJQ5i_4uwUCFKm3ZnKeeWRFbSyR/s1600/IMAGEN-14594385-2.jpg',
       title: 'Image 1',
